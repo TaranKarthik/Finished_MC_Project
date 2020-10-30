@@ -1,0 +1,54 @@
+body {
+	color: white;
+
+	background: radial-gradient(circle, rgb(64, 102, 60) 0%, rgb(82, 206, 78) 100%);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: Minecraft;
+}
+
+
+
+#myCanvas {
+
+	background-color: white;
+
+}
+
+h1:after {
+	display: block;
+	content: '';
+	width: 30%;
+	height: 4px;
+	background: white;
+	position: absolute;
+	
+	bottom: 1px;
+	left: 450px;
+}
+
+h1{
+	position: relative;
+}
+
+h2 {
+	border-radius: 10px;
+	width: 200px;
+	padding: 5px;
+}
+
+h3 {
+	display: inline-block;
+}
+
+p {
+	font-size: 1.5rem;
+}
+
+
+
+#head_info {
+	width: 600px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
